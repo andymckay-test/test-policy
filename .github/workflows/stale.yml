@@ -1,0 +1,14 @@
+name: Mark stale issues and pull requests
+
+on:
+  workflow_dispatch:
+
+jobs:
+  stale:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Run UPX
+      uses: crazy-max/ghaction-upx@v1
+
